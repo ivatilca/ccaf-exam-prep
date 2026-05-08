@@ -133,32 +133,33 @@ Los archivos de código están ordenados para seguirse en paralelo con los video
 | 02 | M0V2 | [Modelos Claude: Opus, Sonnet y Haiku — Cuándo Usar Cada Uno](https://www.youtube.com/watch?v=CkgZc4FsHjg&t=7s) |
 | 03 | M1V1 | [Qué es un Agente y el Agentic Loop](https://www.youtube.com/watch?v=gNCBdj2sMZg&t=6s) |
 | 04 | M1V2 | [El Context Window: Límites, Estrategias y Gestión](https://www.youtube.com/watch?v=4LAOl-k8s7E) |
-| 05 | M1V3 | [System Prompts en Arquitecturas Agentivas](https://www.youtube.com/watch?v=I-Hngi5PTeM&t=4s) |
-| 06 | M1V4 | Multi-Agent Systems: Orquestadores y Sub-agentes |
-| 07 | M2V1 | [Claude Code: Instalación, CLI y CLAUDE.md](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
-| 08 | M2V2 | Hooks y Permisos en Claude Code |
-| 09 | M2V3 | MCP Servers: Extendiendo Claude Code |
-| 10 | M2V4 | Flujos Complejos con Claude Code |
-| 11 | M3V1 | Claude Code en Proyectos Reales |
-| 12 | M3V2 | Debugging y Testing con Claude Code |
-| 13 | M3V3 | Claude Code y Bases de Código Legacy |
-| 14 | M3V4 | Sub-agentes con Claude Code |
-| 15 | M3V5 | Claude Code en CI/CD y Flujos de Equipo |
-| 16 | M4V1 | Fundamentos de Prompt Engineering para el CCA-F |
-| 17 | M4V2 | Few-Shot Prompting y Ejemplos |
-| 18 | M4V3 | Chain-of-Thought y Razonamiento Estructurado |
-| 19 | M4V4 | Tool Use desde el Prompt: Cuándo y Cómo |
-| 20 | M4V5 | Prompts para Sistemas Multi-agente |
-| 21 | M5V1 | Tool Use: Conceptos Fundamentales |
-| 22 | M5V2 | Tool Results y su Impacto en el Contexto |
-| 23 | M5V3 | Gestión de Contexto con Tool Use |
-| 24 | M5V4 | Patrones de Tool Use en Agentes |
-| 25 | M5V5 | Tools como Mecanismo de Delegación |
-| 26 | M6V1 | Tool Use: Diseño e Implementación Técnica |
-| 27 | M6V2 | Computer Use y Herramientas Avanzadas |
-| 28 | M6V3 | Tool Use en Sistemas de Producción |
-| 29 | M6V4 | Patrones de Integración y Arquitecturas |
-| 30 | M6V5 | Repaso Final y Simulacro CCA-F |
+| 05 | M1V3 | [Tool Use en Profundidad](https://www.youtube.com/watch?v=I-Hngi5PTeM&t=4s) |
+| 06 | M1V4 | [Criterios de parada, seguridad agéntica y human-in-the-loop](https://www.youtube.com/watch?v=NlBUKPWUpJM) |
+| 07 | M1V5 | [Estado del Agente](https://www.youtube.com/watch?v=dwahdafDNj8) |
+| 08 | M2V1 | [Claude Code: Instalación, CLI y CLAUDE.md](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
+| 09 | M2V2 | [Hooks y Permisos en Claude Code](https://www.youtube.com/watch?v=9jF75W8YLU&t=2s) |
+| 10 | M2V3 | [MCP Servers: Extendiendo Claude Code](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
+| 11 | M2V4 | [Flujos Complejos con Claude Code](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
+| 12 | M3V1 | [Anatomía de una Tool en Claude](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
+| 13 | M3V2 | Debugging y Testing con Claude Code |
+| 14 | M3V3 | Claude Code y Bases de Código Legacy |
+| 15 | M3V4 | Sub-agentes con Claude Code |
+| 16 | M3V5 | Claude Code en CI/CD y Flujos de Equipo |
+| 17 | M4V1 | Fundamentos de Prompt Engineering para el CCA-F |
+| 18 | M4V2 | Few-Shot Prompting y Ejemplos |
+| 19 | M4V3 | Chain-of-Thought y Razonamiento Estructurado |
+| 20 | M4V4 | Tool Use desde el Prompt: Cuándo y Cómo |
+| 21 | M4V5 | Prompts para Sistemas Multi-agente |
+| 22 | M5V1 | Tool Use: Conceptos Fundamentales |
+| 23 | M5V2 | Tool Results y su Impacto en el Contexto |
+| 24 | M5V3 | Gestión de Contexto con Tool Use |
+| 25 | M5V4 | Patrones de Tool Use en Agentes |
+| 26 | M5V5 | Tools como Mecanismo de Delegación |
+| 27 | M6V1 | Tool Use: Diseño e Implementación Técnica |
+| 28 | M6V2 | Computer Use y Herramientas Avanzadas |
+| 29 | M6V3 | Tool Use en Sistemas de Producción |
+| 30 | M6V4 | Patrones de Integración y Arquitecturas |
+| 31 | M6V5 | Repaso Final y Simulacro CCA-F |
 
 ---
 
