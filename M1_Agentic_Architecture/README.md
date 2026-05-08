@@ -17,9 +17,9 @@
 |---------|-------|----------|---------------|
 | `ejercicio-video1.py` | M1V1 | Sommelier | Agentic loop conversacional: while loop que itera hasta que el modelo emite `accion: recomendar`. Output en JSON estructurado. |
 | `ejercicio-video2.py` | M1V2 | Harry Potter | Pipeline multi-agente de 3 roles: Hermione (análisis de hechos / Sonnet), Ron (impacto en lenguaje simple / Haiku), Dumbledore (síntesis integradora / Sonnet). |
-| `ejercicio'video3.py` | M1V3 | Star Wars | Session state con dict: Planificador genera el plan en JSON, Ejecutor procesa cada paso usando el contexto acumulado de pasos anteriores. |
-| `ejercicio'video4.py` | M1V4 | M3GAN | Tool use con hooks: `hook_pre_tool` (validación de inputs), `hook_post_tool` (registro de resultado), `hook_on_error` (manejo de fallos). |
-| `ejercicio'video5.py` | M1V5 | Deadpool / X-Men | HITL para acciones irreversibles, guardrail de salida con regex, audit trail completo, clasificación reversible/irreversible por tool. |
+| `ejercicio-video3.py` | M1V3 | Star Wars | Session state con dict: Planificador genera el plan en JSON, Ejecutor procesa cada paso usando el contexto acumulado de pasos anteriores. |
+| `ejercicio-video4.py` | M1V4 | M3GAN | Tool use con hooks: `hook_pre_tool` (validación de inputs), `hook_post_tool` (registro de resultado), `hook_on_error` (manejo de fallos). |
+| `ejercicio-video5.py` | M1V5 | Deadpool / X-Men | HITL para acciones irreversibles, guardrail de salida con regex, audit trail completo, clasificación reversible/irreversible por tool. |
 
 ## Conceptos CCA-F clave
 
