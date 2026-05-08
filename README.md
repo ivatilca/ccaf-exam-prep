@@ -1,7 +1,30 @@
-# CCA-F Exam Prep — Curso Completo en Español
+# Claude Certified Architect: De Spider-Man a Star Wars
 
-> El primer curso completo en español para la certificación **CCA-F (Claude Certified Associate — Foundations)** de Anthropic.  
+> La guía completa para el **Claude Certified Architect – Foundations (CCA-F)** — Domina Arquitectura Agéntica, Diseño de Herramientas, Claude Code, Prompt Engineering y Context Management con Universos Pop Culture.  
 > 7 módulos · 30 videos · 6 dominios del examen · Universos temáticos por módulo
+
+**El blog detallado con toda la teoría del curso está en:** [ivanatilca.com — Claude Certified Architect: De Spider-Man a Star Wars](https://www.ivanatilca.com/training/claude-certified-architect-exam-prep-from-spider-man-to-star-wars)
+
+---
+
+## ¿Este training es para ti?
+
+Este curso está dirigido a desarrolladores, arquitectos de software y profesionales de IA que quieren obtener la certificación **Claude Certified Architect – Foundations (CCA-F)**. Es ideal si estás construyendo o planeas construir aplicaciones con Claude, si trabajás con sistemas agénticos, prompt engineering o gestión de contexto, o si querés un repaso estructurado y orientado al examen de los 5 dominios del CCA-F.
+
+No se requiere experiencia previa en certificaciones, pero se recomienda familiaridad básica con Python y APIs. Si aprendés mejor a través de historias y analogías inesperadas — Spider-Man explicando sub-agentes, Star Wars explicando el context window, Batman depurando prompts — **este curso fue hecho para ti**.
+
+---
+
+## Instructores
+
+### Ivana Tilca — Technology Advocate
+Technology Advocate con más de 10 años en el rubro y Microsoft MVP en AI. Inició su camino en Salta y su carrera la llevó a Estados Unidos y Buenos Aires, donde trabajó para Microsoft. Capacita a equipos a nivel global como conferencista y creadora de contenido.
+
+### Fernando Sonego — Manager of Architecture
+Arquitecto de software y estratega de innovación en Buenos Aires. Gerente en Banco Hipotecario y Microsoft MVP (Developer Technologies). Especialista en sistemas distribuidos, Cloud Computing y metodologías ágiles (Scrum/MOF).
+
+### Pablo Di Loreto — Engineering Director
+Engineering Manager en MODO, la solución de pagos que está simplificando la vida cotidiana en Argentina. Analista de Sistemas, Profesor y líder de iniciativas de impacto: AprenderIT, PuertoTec y ConoSurTech. Apasionado por el software, la gestión de servidores y el conocimiento compartido.
 
 ---
 
@@ -106,13 +129,13 @@ Los archivos de código están ordenados para seguirse en paralelo con los video
 
 | # | Video ID | Título |
 |---|----------|--------|
-| 01 | M0V1 | Introducción al Ecosistema Claude y la Certificación CCA-F |
-| 02 | M0V2 | Modelos Claude: Opus, Sonnet y Haiku — Cuándo Usar Cada Uno |
-| 03 | M1V1 | Qué es un Agente y el Agentic Loop |
-| 04 | M1V2 | El Context Window: Límites, Estrategias y Gestión |
-| 05 | M1V3 | System Prompts en Arquitecturas Agentivas |
+| 01 | M0V1 | [Introducción al Ecosistema Claude y la Certificación CCA-F](https://www.youtube.com/watch?v=lY-7IhBqx4s&t=1s) |
+| 02 | M0V2 | [Modelos Claude: Opus, Sonnet y Haiku — Cuándo Usar Cada Uno](https://www.youtube.com/watch?v=CkgZc4FsHjg&t=7s) |
+| 03 | M1V1 | [Qué es un Agente y el Agentic Loop](https://www.youtube.com/watch?v=gNCBdj2sMZg&t=6s) |
+| 04 | M1V2 | [El Context Window: Límites, Estrategias y Gestión](https://www.youtube.com/watch?v=4LAOl-k8s7E) |
+| 05 | M1V3 | [System Prompts en Arquitecturas Agentivas](https://www.youtube.com/watch?v=I-Hngi5PTeM&t=4s) |
 | 06 | M1V4 | Multi-Agent Systems: Orquestadores y Sub-agentes |
-| 07 | M2V1 | Claude Code: Instalación, CLI y CLAUDE.md |
+| 07 | M2V1 | [Claude Code: Instalación, CLI y CLAUDE.md](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
 | 08 | M2V2 | Hooks y Permisos en Claude Code |
 | 09 | M2V3 | MCP Servers: Extendiendo Claude Code |
 | 10 | M2V4 | Flujos Complejos con Claude Code |
@@ -141,4 +164,4 @@ Los archivos de código están ordenados para seguirse en paralelo con los video
 
 ## Licencia
 
-Uso educativo personal. El contenido del curso es propiedad de la autora.
+Uso educativo personal. El contenido del curso es propiedad de los autores.
