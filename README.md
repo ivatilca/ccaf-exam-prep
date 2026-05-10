@@ -146,7 +146,7 @@ Los archivos de código están ordenados para seguirse en paralelo con los video
 | 10 | M2V3 | [MCP: Transportes stdio vs HTTP, autenticación y seguridad](https://www.youtube.com/watch?v=jKvqmWTCc0I) |
 | 11 | M2V4 | [Principio de Menor Privilegio en Tools: diseño seguro de herramientas](https://www.youtube.com/watch?v=SzSGv2AhJZY) |
 | 12 | M2V5 | [Error Handling en Tool Use: los 3 tipos de errores y cómo manejarlos](https://www.youtube.com/watch?v=ziRlLJu9bK4) |
-| 13 | M3V1 | [Anatomía de una Tool en Claude](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
+| 13 | M3V1 | Claude Code: Instalación, CLI y el Archivo CLAUDE.md |
 | 14 | M3V2 | Debugging y Testing con Claude Code |
 | 15 | M3V3 | Claude Code y Bases de Código Legacy |
 | 16 | M3V4 | Sub-agentes con Claude Code |
