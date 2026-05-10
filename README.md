@@ -83,7 +83,12 @@ ccaf-exam-prep/
 │
 ├── M2_ClaudeCode_Basico/
 │   ├── README.md
-│   └── ejercicio-video1.py       ← tool design: 3 tools bien diseñadas (Batman / GCPD)
+│   ├── ejercicio-video1.py         ← tool design: 3 tools bien diseñadas (Batman / GCPD)
+│   ├── ejercicio-video2-r2d2.py    ← servidor MCP: las 3 primitivas — Tool, Resource, Prompt (Star Wars)
+│   ├── ejercicio-video2-cliente.py ← cliente MCP: conecta al servidor R2D2 vía stdio
+│   ├── ejercicio-video3.py         ← servidor MCP con transporte stdio (The Mandalorian)
+│   ├── ejercicio-video4.py         ← principio de menor privilegio: Oracle + Robin + Batman
+│   └── ejercicio-video5.py         ← error handling: 3 tipos de errores (JARVIS / Vengadores)
 │
 ├── M3_ClaudeCode_Avanzado/
 │   └── README.md                 ← código próximamente
@@ -136,30 +141,31 @@ Los archivos de código están ordenados para seguirse en paralelo con los video
 | 05 | M1V3 | [Tool Use en Profundidad](https://www.youtube.com/watch?v=I-Hngi5PTeM&t=4s) |
 | 06 | M1V4 | [Criterios de parada, seguridad agéntica y human-in-the-loop](https://www.youtube.com/watch?v=NlBUKPWUpJM) |
 | 07 | M1V5 | [Estado del Agente](https://www.youtube.com/watch?v=dwahdafDNj8) |
-| 08 | M2V1 | [Claude Code: Instalación, CLI y CLAUDE.md](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
-| 09 | M2V2 | [Hooks y Permisos en Claude Code](https://www.youtube.com/watch?v=9jF75W8YLU&t=2s) |
-| 10 | M2V3 | [MCP Servers: Extendiendo Claude Code](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
-| 11 | M2V4 | [Flujos Complejos con Claude Code](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
-| 12 | M3V1 | [Anatomía de una Tool en Claude](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
-| 13 | M3V2 | Debugging y Testing con Claude Code |
-| 14 | M3V3 | Claude Code y Bases de Código Legacy |
-| 15 | M3V4 | Sub-agentes con Claude Code |
-| 16 | M3V5 | Claude Code en CI/CD y Flujos de Equipo |
-| 17 | M4V1 | Fundamentos de Prompt Engineering para el CCA-F |
-| 18 | M4V2 | Few-Shot Prompting y Ejemplos |
-| 19 | M4V3 | Chain-of-Thought y Razonamiento Estructurado |
-| 20 | M4V4 | Tool Use desde el Prompt: Cuándo y Cómo |
-| 21 | M4V5 | Prompts para Sistemas Multi-agente |
-| 22 | M5V1 | Tool Use: Conceptos Fundamentales |
-| 23 | M5V2 | Tool Results y su Impacto en el Contexto |
-| 24 | M5V3 | Gestión de Contexto con Tool Use |
-| 25 | M5V4 | Patrones de Tool Use en Agentes |
-| 26 | M5V5 | Tools como Mecanismo de Delegación |
-| 27 | M6V1 | Tool Use: Diseño e Implementación Técnica |
-| 28 | M6V2 | Computer Use y Herramientas Avanzadas |
-| 29 | M6V3 | Tool Use en Sistemas de Producción |
-| 30 | M6V4 | Patrones de Integración y Arquitecturas |
-| 31 | M6V5 | Repaso Final y Simulacro CCA-F |
+| 08 | M2V1 | [Anatomía de una Tool en Claude: cómo Claude decide qué herramienta usar](https://www.youtube.com/watch?v=Dva88yW8YLU) |
+| 09 | M2V2 | [MCP (Model Context Protocol): qué es, por qué existe y las 3 primitivas](https://www.youtube.com/watch?v=_Ehgb2GYUjg) |
+| 10 | M2V3 | [MCP: Transportes stdio vs HTTP, autenticación y seguridad](https://www.youtube.com/watch?v=jKvqmWTCc0I) |
+| 11 | M2V4 | [Principio de Menor Privilegio en Tools: diseño seguro de herramientas](https://www.youtube.com/watch?v=SzSGv2AhJZY) |
+| 12 | M2V5 | [Error Handling en Tool Use: los 3 tipos de errores y cómo manejarlos](https://www.youtube.com/watch?v=ziRlLJu9bK4) |
+| 13 | M3V1 | [Anatomía de una Tool en Claude](https://www.youtube.com/watch?v=Dva88yW8YLU&t=2s) |
+| 14 | M3V2 | Debugging y Testing con Claude Code |
+| 15 | M3V3 | Claude Code y Bases de Código Legacy |
+| 16 | M3V4 | Sub-agentes con Claude Code |
+| 17 | M3V5 | Claude Code en CI/CD y Flujos de Equipo |
+| 18 | M4V1 | Fundamentos de Prompt Engineering para el CCA-F |
+| 19 | M4V2 | Few-Shot Prompting y Ejemplos |
+| 20 | M4V3 | Chain-of-Thought y Razonamiento Estructurado |
+| 21 | M4V4 | Tool Use desde el Prompt: Cuándo y Cómo |
+| 22 | M4V5 | Prompts para Sistemas Multi-agente |
+| 23 | M5V1 | Tool Use: Conceptos Fundamentales |
+| 24 | M5V2 | Tool Results y su Impacto en el Contexto |
+| 25 | M5V3 | Gestión de Contexto con Tool Use |
+| 26 | M5V4 | Patrones de Tool Use en Agentes |
+| 27 | M5V5 | Tools como Mecanismo de Delegación |
+| 28 | M6V1 | Tool Use: Diseño e Implementación Técnica |
+| 29 | M6V2 | Computer Use y Herramientas Avanzadas |
+| 30 | M6V3 | Tool Use en Sistemas de Producción |
+| 31 | M6V4 | Patrones de Integración y Arquitecturas |
+| 32 | M6V5 | Repaso Final y Simulacro CCA-F |
 
 ---
 
