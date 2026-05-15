@@ -95,7 +95,24 @@ ccaf-exam-prep/
 │   └── ejercicio-video5.py         ← error handling: 3 tipos de errores (JARVIS / Vengadores)
 │
 ├── M3_ClaudeCode_Avanzado/
-│   └── README.md                 ← código próximamente
+│   ├── README.md
+│   ├── ejercicio-video1/
+│   │   ├── project-inicial/      ← CLAUDE.md mínimo + Flask API (Rebel Alliance)
+│   │   └── project-final/        ← CLAUDE.md completo con convenciones y notas
+│   ├── ejercicio-video2/
+│   │   ├── settings.json         ← allow/deny list de permisos
+│   │   └── hooks/
+│   │       ├── spider_sense.py   ← PreToolUse: bloquea rutas y comandos peligrosos
+│   │       └── audit_logger.py   ← PostToolUse: registra cada acción en audit.log
+│   └── ejercicio-video3/
+│       ├── seed_db.py            ← recrea la DB con misiones, agentes y recursos
+│       └── Puntoclaude/          ← estructura .claude/ del proyecto
+│           ├── settings.json     ← permisos MCP + hooks
+│           ├── settings.local.json ← activación local de MCP servers (no commitear)
+│           ├── hooks/            ← spider_sense.py + audit_logger.py
+│           └── mcp/
+│               ├── db_server.py      ← rebel-db (stdio): list_tables, query, execute
+│               └── github_server.py  ← rebel-github (HTTP): issues, files, PRs
 │
 ├── M4_Prompt_Engineering/
 │   └── README.md                 ← código próximamente
@@ -152,9 +169,9 @@ Los archivos de código están ordenados para seguirse en paralelo con los video
 | 12 | M2V3 | [MCP: Transportes stdio vs HTTP, autenticación y seguridad](https://www.youtube.com/watch?v=jKvqmWTCc0I) |
 | 13 | M2V4 | [Principio de Menor Privilegio en Tools: diseño seguro de herramientas](https://www.youtube.com/watch?v=SzSGv2AhJZY) |
 | 14 | M2V5 | [Error Handling en Tool Use: los 3 tipos de errores y cómo manejarlos](https://www.youtube.com/watch?v=ziRlLJu9bK4) |
-| 15 | M3V1 | Claude Code: Instalación, CLI y el Archivo CLAUDE.md |
-| 16 | M3V2 | Debugging y Testing con Claude Code |
-| 17 | M3V3 | Claude Code y Bases de Código Legacy |
+| 15 | M3V1 | [Claude Code: instalación, CLI y CLAUDE.md explicados](https://www.youtube.com/watch?v=aqCjLhFBwl8) |
+| 16 | M3V2 | [Hooks y Sistema de Permisos en Claude Code: control total del agente](https://www.youtube.com/watch?v=_9CerbfjU8Y) |
+| 17 | M3V3 | [MCP Servers en Claude Code: transportes, scopes y diagnóstico](https://www.youtube.com/watch?v=zrv_B1VIy74) |
 | 18 | M3V4 | Sub-agentes con Claude Code |
 | 19 | M3V5 | Claude Code en CI/CD y Flujos de Equipo |
 | 20 | M4V1 | Fundamentos de Prompt Engineering para el CCA-F |

@@ -1,0 +1,43 @@
+{
+    "permissions": {
+        "allow": [
+            "Read",
+            "Write",
+            "Bash(git *)",
+            "Bash(pytest *)",
+            "Bash(python *)",
+            "Bash(pip install *)",
+            "Bash(flask *)",
+            "Bash(flake8 *)",
+            "Bash(cat *)",
+            "Bash(ls *)",
+            "Bash(grep *)",
+            "Bash(echo *)",
+            "Bash(mkdir *)",
+            "Bash(cp *)",
+            "Bash(mv *)"
+        ],
+        "deny": [
+            "Bash(rm -rf *)",
+            "Bash(sudo *)",
+            "Bash(curl * | bash)",
+            "Write(.env)",
+            "Write(secrets/*)",
+            "Write(config.prod.py)"
+        ]
+    },
+    "hooks": {
+        "PreToolUse": [
+            {
+                "matcher": "Bash|Write|Edit",
+                "hooks": [{"type": "command", "command": "python3 .claude/hooks/spider_sense.py"}]
+            }
+        ],
+        "PostToolUse": [
+            {
+                "matcher": ".*",
+                "hooks": [{"type": "command", "command": "python3 .claude/hooks/audit_logger.py"}]
+            }
+        ]
+    }
+}

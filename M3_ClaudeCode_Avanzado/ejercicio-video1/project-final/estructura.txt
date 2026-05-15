@@ -1,0 +1,8 @@
+rebel_api/
+├── CLAUDE.md          ← El holocrón del proyecto
+├── demo.py             ← Aplicación Flask principal
+├── requirements.txt   ← Dependencias
+├── tests/
+│   └── test_app.py    ← Tests con pytest
+└── .claude/
+    └── CLAUDE.md      ← Config local para workflows específicos

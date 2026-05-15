@@ -1,0 +1,34 @@
+{
+    "permissions": {
+        "allow": [
+            "Read",
+            "Write",
+            "Bash(pytest *)",
+            "Bash(git *)",
+            "Bash(python *)",
+            "mcp__rebel-db__query_database",
+            "mcp__rebel-db__list_tables",
+            "mcp__rebel-github__create_pr",
+            "mcp__rebel-github__list_issues",
+            "mcp__rebel-github__get_file"
+        ],
+        "deny": [
+            "mcp__rebel-github__merge_branch",
+            "mcp__rebel-db__execute_transaction"
+        ]
+    },
+    "hooks": {
+        "PreToolUse": [
+            {
+                "matcher": "Bash|Write|Edit",
+                "hooks": [{"type": "command", "command": "'/Users/ivanatilca/Documents/Ivana Tilca/Demos/.venv/bin/python3' '/Users/ivanatilca/Documents/Ivana Tilca/Demos/.claude/hooks/spider_sense.py'"}]
+            }
+        ],
+        "PostToolUse": [
+            {
+                "matcher": ".*",
+                "hooks": [{"type": "command", "command": "'/Users/ivanatilca/Documents/Ivana Tilca/Demos/.venv/bin/python3' '/Users/ivanatilca/Documents/Ivana Tilca/Demos/.claude/hooks/audit_logger.py'"}]
+            }
+        ]
+    }
+}

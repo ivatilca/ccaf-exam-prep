@@ -1,0 +1,11 @@
+Demos/
+├── rebel_ops.db              ← base de datos con 14 misiones, 5 agentes, 4 recursos
+├── seed_db.py                ← script para recrear la DB
+└── .claude/
+    ├── settings.json         ← MCP servers + permisos + hooks
+    ├── hooks/
+    │   ├── spider_sense.py   ← PreToolUse
+    │   └── audit_logger.py   ← PostToolUse
+    └── mcp/
+        ├── db_server.py      ← rebel-db (stdio)
+        └── github_server.py  ← rebel-github (HTTP)

@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": [
+    "rebel-db",
+    "rebel-github"
+  ]
+}
